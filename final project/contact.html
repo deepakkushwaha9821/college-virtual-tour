@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="/contact.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav id="nav">
+      <div id="logo">
+        <a href="/index.html">
+          <img src="Web-Logo.png" alt="LOGO" height="40px" />
+        </a>
+      </div>
+      <div id="buttons">
+        <a href="/index.html">Home</a>
+        <a href="#two">About Us</a>
+        <a href="vtour.html" style="color: #c04000; font-weight: bolder"
+          >Virtual Tour</a
+        >
+        <a href="#">Courses</a>
+        <a href="#">Placements</a>
+      </div>
+      <div id="contact">
+        <a href="/contact.html">Enquiry</a>
+      </div>
+    </nav>
+
+    <section>
+      <div id="left">
+        <h1>Feedback Form</h1>
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <input
+            type="hidden"
+            name="access_key"
+            value="ef0f8419-df18-4c09-90b5-ffd950fa7881"
+          />
+          <label>
+            <input type="text" name="First Name" placeholder="First Name" />
+            <input type="text" name="Last Name" placeholder="Last Name" />
+          </label>
+          <label>
+            <input type="email" name="E-mail Id" placeholder="E-mail Id" />
+            <input
+              type="number"
+              name="Phone Number"
+              placeholder="Phone Number"
+            />
+          </label>
+          <label id="msg">
+            <textarea
+              placeholder="Leave us a message"
+              name="Message"
+              rows="7"
+              cols="40"
+            ></textarea>
+          </label>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

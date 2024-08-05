@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Virtual Tour</title>
+    <link rel="stylesheet" href="/index.css" />
+    <link rel="stylesheet" href="/media.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav id="nav">
+      <div id="logo">
+        <a href="/index.html">
+          <img src="/Pic/Web-Logo.png" alt="LOGO" height="30px" />
+        </a>
+      </div>
+      <div id="buttons">
+        <a href="#nav">Home</a>
+        <a href="#two">About Us</a>
+        <div class="dropdown">
+          <a href="vt.html" class="dropbtn">Virtual Tour</a>
+          <div class="dropdown-content">
+            <a href="/vt.html#gf">Ground Floor</a>
+            <a href="vt.html#ff">First Floor</a>
+            <a href="vt.html#sf">Second Floor</a>
+            <a href="vt.html#tf">Third Floor</a>
+          </div>
+        </div>
+        <a href="#three">Courses</a>
+      </div>
+      <div id="contact">
+        <a href="contact.html">Enquiry</a>
+      </div>
+    </nav>
+
+    <section id="one">
+      <div id="text">
+        <h1>Universal College Of Engineering</h1>
+        <p>
+          Step into the future of education with our immersive college virtual
+          tour experience campus life from anywhere anytime.
+        </p>
+        <div id="tour">
+          <a href="vt.html">Virtual Tour</a>
+        </div>
+      </div>
+      <div id="img">
+        <!-- Uncomment and add a valid source if needed -->
+        <img src="./building.jpg" alt="Front view of Universal College of Engineering"width="750px" height="350px";>
+      </div>
+    </section>
+
+    <section id="two">
+      <h1>Take A Look Inside UCOE</h1>
+      <div id="AU">
+        <div id="vid">
+          <iframe
+            height="300"
+            width="550"
+            src="https://www.youtube.com/embed/8azzgxzO4bk"
+            title="Universal College of Engineering"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div id="text">
+          <p>
+            Embraced by lush greenery and scenic beauty, Universal College of
+            Engineering is a treasured place for aspiring engineers to leave
+            their imprints towards success. As a college within the wider
+            network frame, we are one of the fastest growing institutions in
+            India. Our institute has been accredited by National Assessment and
+            Accreditation Council (NAAC) with B+ grade in the first cycle of
+            accreditation. Times of India Survey Ranked No. 1 in India among Top
+            Emerging Private Engineering Institutes for 6 consecutive years
+            2015, 2016, 2017, 2018, 2019 and 2020.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- campus gallery section starts here -->
+    <section id="three">
+      <div id="tow"></div>
+      <!-- cards start here -->
+      <div class="wrapper">
+        <div class="container">
+          <input type="radio" name="slide" id="c1" checked />
+          <label for="c1" class="card">
+            <div class="row">
+              <div class="icon">5</div>
+              <div class="description">Course Description 1</div>
+            </div>
+          </label>
+          <input type="radio" name="slide" id="c2" />
+          <label for="c2" class="card">
+            <div class="row">
+              <div class="icon">4</div>
+              <div class="description">Course Description 2</div>
+            </div>
+          </label>
+          <input type="radio" name="slide" id="c3" />
+          <label for="c3" class="card">
+            <div class="row">
+              <div class="icon">3</div>
+              <div class="description">Course Description 3</div>
+            </div>
+          </label>
+          <input type="radio" name="slide" id="c4" />
+          <label for="c4" class="card">
+            <div class="row">
+              <div class="icon">2</div>
+              <div class="description">Course Description 4</div>
+            </div>
+          </label>
+          <input type="radio" name="slide" id="c5" />
+          <label for="c5" class="card">
+            <div class="row">
+              <div class="icon">1</div>
+              <div class="description">Course Description 5</div>
+            </div>
+          </label>
+        </div>
+      </div>
+      <!-- cards end here -->
+    </section>
+    <!-- courses section ends above -->
+
+    <footer>
+      <p>Courtesy :- Universal College Of Engineering</p>
+    </footer>
+  </body>
+</html>

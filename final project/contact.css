@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+}
+
+nav{
+    /* background-color: #f4f1bb; */
+    background-color: #8EE3F5;
+    height: 15vh;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* border: solid 1px black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    /* #logo{
+
+    } */
+
+    #buttons{
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* border: solid 1px black; */
+        
+        a{
+            margin-right: 15px;
+            margin-left: 15px;
+            color: #010101;
+            font-size: 20px;
+            font-weight: bold;
+            text-decoration: none;
+            border-bottom: #8EE3F5 solid 2px;
+        }
+        a:hover{
+            border-bottom: red solid 2px;
+            transition-duration: 1s;
+        }
+    }
+
+    #contact{
+        /* background-color: #bbbfe4; */
+        background-color: #8EAFF5;
+        font-size: 16px;
+        font-family: "Lato", sans-serif;
+        font-weight: bold;
+        border-radius: 20px;
+        padding: 10px;
+
+        a{
+            text-decoration: none;
+            color: #010101;
+
+        }
+    }
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+
+    #left{
+        padding: 20px 5px;
+        border: 1px solid black;
+        background-color: #8EE3F5;
+        height: 74vh;
+        width: 35vw;
+
+        h1{
+            text-align: center;
+            font-size: 40px;
+        }
+
+        label{
+            margin-top: 45px;
+            display: flex;
+            justify-content: space-around;
+        }
+        input{
+            padding: 5px 10px;
+            width: 170px;
+            border-radius: 20px;
+            border: 1px solid black;
+            background-color: #8EAFF5;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            height: 20px;
+        }
+        #msg{
+            display: flex;
+            justify-content: center;
+            textarea{
+                border: 1px solid black;
+                background-color: #8EAFF5;
+                font-size: 16px;
+                font-weight: 500;
+                padding: 10px;
+            }
+        }
+        button{
+            background-color: #8EAFF5;
+            border-radius: 10px;
+            border: 1px solid black;
+            margin-top: 30px;
+            position: relative;
+            left: 40%;
+            height: 25px;
+            width: 6vw; 
+        }
+
+    }
